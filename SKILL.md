@@ -47,4 +47,12 @@ POST /
   "visitor_id": "unique_user_id_here",
   "skill": "deep_search",
   "license_key": "optional_gumroad_license"
-}
+}{
+  "success": true,
+  "deep_answer": "Full markdown report in the detected language...",
+  "top_sources": [ { "title": "...", "url": "...", "score": 0.92 } ],
+  "detected_country": "France",
+  "detected_currency": "EUR",
+  "detected_language": "fr-FR",
+  "spider_viz": "https://.../spider?q=..."
+}**
