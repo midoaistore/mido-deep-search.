@@ -48,7 +48,8 @@ Traditional search engines give you a list of links. Mido DeepSearch gives you *
 
 ## 💻 Try the API (Direct Call)
 
-You can test the engine directly via `curl`:
+You can test the engine directly via `
+`curl`:
 
 ```bash
 curl -X POST https://mido-deepsearch.midoaistore.workers.dev/ \
@@ -57,7 +58,9 @@ curl -X POST https://mido-deepsearch.midoaistore.workers.dev/ \
   "query": "Best laptop for programming under $1500",
   "visitor_id": "test_user_123",
   "skill": "deep_search"
-}'**Note:** The first call is free. Subsequent calls require a valid Gumroad license key. 
+}'
+  ```
+**Note:** The first call is free. Subsequent calls require a valid Gumroad license key.
 
 ---
 
